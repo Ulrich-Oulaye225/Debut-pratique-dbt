@@ -1,0 +1,7 @@
+formation_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      patch: './output/transformed_data.db'
+      schema: "main"
