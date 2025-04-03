@@ -3,5 +3,5 @@ formation_dbt:
   outputs:
     dev:
       type: duckdb
-      patch: './output/transformed_data.db'
+      path: './output/transformed_data.db'
       schema: "main"
